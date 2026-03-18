@@ -157,7 +157,8 @@ This approach is ideal for:
 
 ## 📷 Preview
 
-![Custom Tooltip in Power BI](https://github.com/user-attachments/assets/8fbc56e6-40a9-472f-a5f2-97b3bd0e34c7)
+<img width="1172" height="616" alt="Screenshot 2026-03-18 105056" src="https://github.com/user-attachments/assets/91187d52-2d6f-4a04-a88d-ca4b7db9865d" />
+
 
 *The tooltip reveals the full calculation breakdown on hover — turning a single number into a complete data story.*
 
