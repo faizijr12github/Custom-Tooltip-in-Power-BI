@@ -1,10 +1,10 @@
-# 📊 Custom Tooltip in Power BI — Report Page Tooltip
+# Custom Tooltip in Power BI — Report Page Tooltip
 
 > *Transforming static KPIs into transparent, explainable insights through interactive Report Page Tooltips.*
 
 ---
 
-## 📖 Overview
+## Overview
 
 This project demonstrates the implementation of **Custom Tooltips in Power BI** using **Report Page Tooltips** to enhance data storytelling and improve transparency of complex calculations.
 
@@ -12,16 +12,16 @@ The solution transforms a simple KPI into an **interactive experience** by revea
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
-- ✅ Implement Report Page Tooltips in Power BI
-- ✅ Improve data transparency and explainability
-- ✅ Enhance user experience with contextual, on-demand insights
-- ✅ Visualize complex DAX calculations in a simple, intuitive way
+-  Implement Report Page Tooltips in Power BI
+-  Improve data transparency and explainability
+-  Enhance user experience with contextual, on-demand insights
+-  Visualize complex DAX calculations in a simple, intuitive way
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 | Tool / Technology | Purpose |
 |---|---|
@@ -32,47 +32,47 @@ The solution transforms a simple KPI into an **interactive experience** by revea
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
-### 🔹 1. "Glass Box" Calculation Logic
+###  1. "Glass Box" Calculation Logic
 Instead of displaying only the final KPI value, the tooltip reveals the **full step-by-step breakdown**:
 
 ```
 Team Members → Working Days → Activity % → Final Output
 ```
 
-> ➡️ Converts a "black box" metric into a fully transparent, auditable model.
+>  Converts a "black box" metric into a fully transparent, auditable model.
 
 ---
 
-### 🔹 2. Weighted Logic Representation
+###  2. Weighted Logic Representation
 Clearly explains how derived values are calculated, including complex logic such as:
 
 - **Hybrid Staff Calculation** — e.g., `185 × 70%`
 - Adjusted totals with visible weighting factors
 
-> ➡️ No more guesswork — users see exactly how numbers are derived.
+>  No more guesswork — users see exactly how numbers are derived.
 
 ---
 
-### 🔹 3. Clean & Minimal Dashboard Design
+###  3. Clean & Minimal Dashboard Design
 - Main dashboard displays **only the final KPI value** (e.g., `85.84%`)
 - Detailed calculation logic is tucked inside the tooltip
 - Prevents **information overload** while keeping insights accessible
 
-> ➡️ A clean surface with depth underneath.
+>  A clean surface with depth underneath.
 
 ---
 
-### 🔹 4. Contextual "On-Hover" Insights
+###  4. Contextual "On-Hover" Insights
 - Tooltip triggered by hovering over an **info icon** `f(x)`
 - Provides **just-in-time** explanations at the point of need
 
-> ➡️ Acts as a built-in user guide and training aid.
+>  Acts as a built-in user guide and training aid.
 
 ---
 
-### 🔹 5. Dynamic Calculation Flow
+###  5. Dynamic Calculation Flow
 The tooltip is designed like a **visual flowchart**, using operators to represent the logic:
 
 | Operator | Meaning |
@@ -82,52 +82,52 @@ The tooltip is designed like a **visual flowchart**, using operators to represen
 | ➗ | Division |
 | `=` | Result |
 
-> ➡️ Makes complex logic easy to follow at a glance.
+>  Makes complex logic easy to follow at a glance.
 
 ---
 
-### 🔹 6. Custom Tooltip Page Design
+###  6. Custom Tooltip Page Design
 - Dedicated **hidden report page** created for the tooltip
 - Page size configured for **optimal popup display**
 
-> ➡️ Ensures a clean, focused, and professional popup experience.
+>  Ensures a clean, focused, and professional popup experience.
 
 ---
 
-### 🔹 7. Data Consistency with Filters
+###  7. Data Consistency with Filters
 The tooltip **respects all active slicer selections** and works dynamically with filters such as:
 
-- 📅 Response Date
-- 📋 Survey Type
+-  Response Date
+-  Survey Type
 
-> ➡️ Guarantees accurate, real-time calculations in every context.
+>  Guarantees accurate, real-time calculations in every context.
 
 ---
 
-## 📊 Key Insights Delivered
+##  Key Insights Delivered
 
 | Insight | Detail |
 |---|---|
-| ⚠️ **Negative Variance Identified** | Highlighted **–187** remaining working days |
-| 📉 **Operational Efficiency Metric** | Applied **80% activity factor** to convert expected hours → actual activity hours |
+|  **Negative Variance Identified** | Highlighted **–187** remaining working days |
+|  **Operational Efficiency Metric** | Applied **80% activity factor** to convert expected hours → actual activity hours |
 
-> ➡️ Enables better operational planning and data-driven decision-making.
+>  Enables better operational planning and data-driven decision-making.
 
 ---
 
-## 💡 Benefits
+##  Benefits
 
 | Benefit | Description |
 |---|---|
-| 🔍 **Data Transparency** | Full calculation logic is visible to end users |
-| 🤝 **User Trust** | Builds confidence in reported metrics |
-| 📊 **Data Storytelling** | Context-rich insights at every touchpoint |
-| 🧠 **DAX Simplification** | Complex logic presented visually |
-| ⚡ **On-Demand Insights** | Details available exactly when needed |
+|  **Data Transparency** | Full calculation logic is visible to end users |
+|  **User Trust** | Builds confidence in reported metrics |
+|  **Data Storytelling** | Context-rich insights at every touchpoint |
+|  **DAX Simplification** | Complex logic presented visually |
+|  **On-Demand Insights** | Details available exactly when needed |
 
 ---
 
-## 🧠 Key Learnings
+##  Key Learnings
 
 - How to create and configure **Report Page Tooltips** in Power BI
 - Techniques for explaining complex metrics through **visual storytelling**
@@ -136,26 +136,26 @@ The tooltip **respects all active slicer selections** and works dynamically with
 
 ---
 
-## 📂 Use Cases
+##  Use Cases
 
 This approach is ideal for:
 
-- 📌 Complex KPI dashboards
-- 📌 Business reports with calculated or derived metrics
-- 📌 Executive dashboards requiring full transparency
-- 📌 Onboarding and training users on report logic
+-  Complex KPI dashboards
+-  Business reports with calculated or derived metrics
+-  Executive dashboards requiring full transparency
+-  Onboarding and training users on report logic
 
 ---
 
-## 💡 Outcome
+##  Outcome
 
-- ✅ Built an **interactive and intelligent tooltip system**
-- ✅ Transformed static KPIs into **explainable, trustworthy insights**
-- ✅ Delivered a **professional and user-friendly** Power BI experience
+-  Built an **interactive and intelligent tooltip system**
+-  Transformed static KPIs into **explainable, trustworthy insights**
+-  Delivered a **professional and user-friendly** Power BI experience
 
 ---
 
-## 📷 Preview
+##  Preview
 
 <img width="1172" height="616" alt="Screenshot 2026-03-18 105056" src="https://github.com/user-attachments/assets/91187d52-2d6f-4a04-a88d-ca4b7db9865d" />
 
@@ -164,17 +164,17 @@ This approach is ideal for:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
-📦 custom-tooltip-powerbi
- ┣ 📊 PowerBI_CustomTooltip.pbix       # Main Power BI report file
- ┣ 📷 screenshots/                      # Preview images
- ┗ 📄 README.md                         # Project documentation
+ custom-tooltip-powerbi
+ ┣  PowerBI_CustomTooltip.pbix       # Main Power BI report file
+ ┣  screenshots/                      # Preview images
+ ┗  README.md                         # Project documentation
 ```
 
 ---
 
-## 🔗 Connect
+## Connect
 
 If you found this project useful or have suggestions, feel free to open an **Issue** or submit a **Pull Request**.
